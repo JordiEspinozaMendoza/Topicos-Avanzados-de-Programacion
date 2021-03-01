@@ -1,0 +1,9 @@
+C:\Users\dell\OneDrive - tectijuana.edu.mx\ITT\4to semestre\Topicos\Practica 1\Practica 1\bin\Debug\Practica 1.exe.config
+C:\Users\dell\OneDrive - tectijuana.edu.mx\ITT\4to semestre\Topicos\Practica 1\Practica 1\bin\Debug\Practica 1.exe
+C:\Users\dell\OneDrive - tectijuana.edu.mx\ITT\4to semestre\Topicos\Practica 1\Practica 1\bin\Debug\Practica 1.pdb
+C:\Users\dell\OneDrive - tectijuana.edu.mx\ITT\4to semestre\Topicos\Practica 1\Practica 1\obj\Debug\Practica 1.csprojAssemblyReference.cache
+C:\Users\dell\OneDrive - tectijuana.edu.mx\ITT\4to semestre\Topicos\Practica 1\Practica 1\obj\Debug\Practica 1.csproj.CoreCompileInputs.cache
+C:\Users\dell\OneDrive - tectijuana.edu.mx\ITT\4to semestre\Topicos\Practica 1\Practica 1\obj\Debug\Practica 1.exe
+C:\Users\dell\OneDrive - tectijuana.edu.mx\ITT\4to semestre\Topicos\Practica 1\Practica 1\obj\Debug\Practica 1.pdb
+C:\Users\dell\OneDrive - tectijuana.edu.mx\ITT\4to semestre\Topicos\Practica 1\Practica 1\obj\Debug\Practica_1.Program.resources
+C:\Users\dell\OneDrive - tectijuana.edu.mx\ITT\4to semestre\Topicos\Practica 1\Practica 1\obj\Debug\Practica 1.csproj.GenerateResource.cache
