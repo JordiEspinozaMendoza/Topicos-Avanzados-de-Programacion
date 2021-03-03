@@ -35,18 +35,18 @@ namespace Practica_2
             // 
             // timer1
             // 
+            this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Program
             // 
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(385, 261);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Program";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Shown += new System.EventHandler(this.Program_Shown);
             this.ResumeLayout(false);
-            timer1.Start();
-
 
         }
         private void Program_Shown(object sender, EventArgs e)
@@ -64,7 +64,7 @@ namespace Practica_2
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            int velocidad = 5;
+            int velocidad = 6;
             if (dvd.Top < 225 && toDown)
             {
                 dvd.Top = dvd.Top + velocidad;
@@ -87,7 +87,6 @@ namespace Practica_2
                     toRight = true;
                     toLeft = false;
                 }
-
             }
             else
             {
