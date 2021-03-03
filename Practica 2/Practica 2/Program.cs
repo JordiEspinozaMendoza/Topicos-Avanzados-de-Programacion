@@ -69,15 +69,12 @@ namespace Practica_2
             {
                 dvd.Top = dvd.Top + velocidad;
                 if (dvd.Left < 280 && toRight)
-                {
                     dvd.Left = dvd.Left + velocidad;
-                }
                 else
                 {
                     toRight = false;
                     toLeft = true;
                 }
-
                 if (dvd.Left > 0 && toLeft)
                 {
                     dvd.Left = dvd.Left - velocidad;
@@ -93,24 +90,18 @@ namespace Practica_2
                 toDown = false;
                 toUp = true; 
             }
-
             if(dvd.Top > 0 && toUp)
             {
                 dvd.Top = dvd.Top - velocidad;
                 if (dvd.Left < 280 && toRight)
-                {
                     dvd.Left = dvd.Left + velocidad;
-                }
                 else
                 {
                     toRight = false;
                     toLeft = true;
                 }
-
                 if (dvd.Left > 0 && toLeft)
-                {
                     dvd.Left = dvd.Left - velocidad;
-                }
                 else
                 {
                     toRight = true;
@@ -122,8 +113,6 @@ namespace Practica_2
                 toDown = true;
                 toUp = false;
             }
-
-
         }
     }
 }
