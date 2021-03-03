@@ -11,39 +11,23 @@ namespace Practica_1
     {
         public Program()
         {
-            InitializeComponent(); 
+            InitializeComponent(); //A
+            this.ShowDialog();
         }
-
         static void Main(string[] args)
         {
-            Console.Write("Presione cualquier tecla para generar la forma con el botón...");
-            Console.ReadKey();
-
             Program program = new Program();
-            program.ShowDialog();
         }
-
-        private void InitializeComponent()
+        private void InitializeComponent() //A
         {
-            this.SuspendLayout();
-            // 
-            // Program
-            // 
             this.ClientSize = new System.Drawing.Size(385, 261);
-            this.Name = "Program";
+            this.Name = "Practica 1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Load += new System.EventHandler(this.Program_Load);
-            this.ResumeLayout(false);
             Button newButton = new Button();
-            newButton.Text = "hola";
+            newButton.Text = "boton";
             newButton.Location = new System.Drawing.Point(144, 111);
             this.Controls.Add(newButton);
-            
         }
 
-        private void Program_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

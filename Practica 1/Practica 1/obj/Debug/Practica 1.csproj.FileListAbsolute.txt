@@ -7,3 +7,12 @@ C:\Users\dell\OneDrive - tectijuana.edu.mx\ITT\4to semestre\Topicos\Practica 1\P
 C:\Users\dell\OneDrive - tectijuana.edu.mx\ITT\4to semestre\Topicos\Practica 1\Practica 1\obj\Debug\Practica 1.pdb
 C:\Users\dell\OneDrive - tectijuana.edu.mx\ITT\4to semestre\Topicos\Practica 1\Practica 1\obj\Debug\Practica_1.Program.resources
 C:\Users\dell\OneDrive - tectijuana.edu.mx\ITT\4to semestre\Topicos\Practica 1\Practica 1\obj\Debug\Practica 1.csproj.GenerateResource.cache
+C:\Users\gues\Source\Repos\Topicos-Avanzados-de-Programacion\Practica 1\Practica 1\bin\Debug\Practica 1.exe.config
+C:\Users\gues\Source\Repos\Topicos-Avanzados-de-Programacion\Practica 1\Practica 1\bin\Debug\Practica 1.exe
+C:\Users\gues\Source\Repos\Topicos-Avanzados-de-Programacion\Practica 1\Practica 1\bin\Debug\Practica 1.pdb
+C:\Users\gues\Source\Repos\Topicos-Avanzados-de-Programacion\Practica 1\Practica 1\obj\Debug\Practica 1.csprojAssemblyReference.cache
+C:\Users\gues\Source\Repos\Topicos-Avanzados-de-Programacion\Practica 1\Practica 1\obj\Debug\Practica_1.Program.resources
+C:\Users\gues\Source\Repos\Topicos-Avanzados-de-Programacion\Practica 1\Practica 1\obj\Debug\Practica 1.csproj.GenerateResource.cache
+C:\Users\gues\Source\Repos\Topicos-Avanzados-de-Programacion\Practica 1\Practica 1\obj\Debug\Practica 1.csproj.CoreCompileInputs.cache
+C:\Users\gues\Source\Repos\Topicos-Avanzados-de-Programacion\Practica 1\Practica 1\obj\Debug\Practica 1.exe
+C:\Users\gues\Source\Repos\Topicos-Avanzados-de-Programacion\Practica 1\Practica 1\obj\Debug\Practica 1.pdb
