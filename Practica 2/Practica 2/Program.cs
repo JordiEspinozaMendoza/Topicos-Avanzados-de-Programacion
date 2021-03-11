@@ -42,7 +42,6 @@ namespace Practica_2
             // 
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(385, 261);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Program";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Shown += new System.EventHandler(this.Program_Shown);
@@ -65,10 +64,10 @@ namespace Practica_2
         private void timer1_Tick(object sender, EventArgs e)
         {
             int velocidad = 6;
-            if (dvd.Top < 225 && toDown)
+            if (dvd.Top < (this.ClientSize.Height - 36) && toDown)
             {
                 dvd.Top = dvd.Top + velocidad;
-                if (dvd.Left < 280 && toRight)
+                if (dvd.Left < this.ClientSize.Width && toRight)
                     dvd.Left = dvd.Left + velocidad;
                 else
                 {
@@ -93,7 +92,7 @@ namespace Practica_2
             if(dvd.Top > 0 && toUp)
             {
                 dvd.Top = dvd.Top - velocidad;
-                if (dvd.Left < 280 && toRight)
+                if (dvd.Left < (this.ClientSize.Width - 105) && toRight)
                     dvd.Left = dvd.Left + velocidad;
                 else
                 {
