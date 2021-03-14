@@ -82,9 +82,9 @@ namespace Practica_3
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-
             int top = button.Top;
             int left = button.Left;
+
             int top1 = face.Top;
             int left1 = face.Left;
 
@@ -101,6 +101,17 @@ namespace Practica_3
 
             if (boton1.case1)
             {
+                this.BackColor = System.Drawing.Color.FromArgb(255,204, 0);
+                if (boton1.case2)
+                {
+                    if (this.Controls.Contains(face))
+                    {
+
+                        this.Controls.Remove(face);
+                        this.Controls.Remove(face2);
+                        this.Controls.Remove(face3);
+                    }
+                }
                 if (!this.Controls.Contains(face)) { 
 
                     this.Controls.Add(face);
@@ -130,7 +141,7 @@ namespace Practica_3
         bool toRight;
         //Casos 
         public bool case1 = false;
-        bool case2 = false;
+        public bool case2 = false;
         bool case3 = false;
         bool case4 = false;
         bool case5 = false;
@@ -144,15 +155,25 @@ namespace Practica_3
             this.toUp = toUp;
         }
 
-        //Metodo para mover al botón
+        //Metodo para mover al botó
         public  void Move(int ClientHeight, int ClientWidth, ref int y,ref int x, bool admin=false)
         {
-            int velocidad = 10;
+            int velocidad = 15;
             if (y < (ClientHeight- 36) && toDown)
             {
                 y = y + velocidad;
                 if (x < (ClientWidth - 105) && toRight)
+                {
                     x = x + velocidad;
+                    if (x > (ClientWidth - 200) && y > 0 && y < 10)
+                    {
+                        case2 = true;
+                    }
+                    else
+                    {
+                        case2 = false;
+                    }
+                }
                 else
                 {
                     toRight = false;
@@ -161,6 +182,14 @@ namespace Practica_3
                 if (x > 0 && toLeft)
                 {
                     x = x - velocidad;
+                    if (x > (ClientWidth - 200) && y > 0 && y < 10)
+                    {
+                        case2 = true;
+                    }
+                    else
+                    {
+                        case2 = false;
+                    }
                 }
                 else
                 {
@@ -196,7 +225,18 @@ namespace Practica_3
                 if(y > 0 && y<10)
                 {
                     if (admin)
+                    {
                         case1 = true;
+
+                    }
+                }
+                else
+                {
+                    if (admin)
+                    {
+                        case1 = false;
+
+                    }
                 }
                 toDown = true;
                 toUp = false;
