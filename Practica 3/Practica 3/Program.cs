@@ -104,15 +104,12 @@ namespace Practica_3
                 this.BackColor = System.Drawing.Color.FromArgb(255,204, 0);
                 if (boton1.case2)
                 {
-                    if (this.Controls.Contains(face))
-                    {
 
-                        this.Controls.Remove(face);
-                        this.Controls.Remove(face2);
-                        this.Controls.Remove(face3);
-                    }
+                    this.Controls.Remove(face);
+                    this.Controls.Remove(face2);
+                    this.Controls.Remove(face3);
                 }
-                if (!this.Controls.Contains(face)) { 
+                if (!this.Controls.Contains(face) && !boton1.case2) { 
 
                     this.Controls.Add(face);
                     this.Controls.Add(face2);
@@ -169,10 +166,6 @@ namespace Practica_3
                     {
                         case2 = true;
                     }
-                    else
-                    {
-                        case2 = false;
-                    }
                 }
                 else
                 {
@@ -186,10 +179,7 @@ namespace Practica_3
                     {
                         case2 = true;
                     }
-                    else
-                    {
-                        case2 = false;
-                    }
+
                 }
                 else
                 {
@@ -227,14 +217,6 @@ namespace Practica_3
                     if (admin)
                     {
                         case1 = true;
-
-                    }
-                }
-                else
-                {
-                    if (admin)
-                    {
-                        case1 = false;
 
                     }
                 }
