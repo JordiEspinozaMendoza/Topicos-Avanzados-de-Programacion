@@ -61,12 +61,15 @@ namespace ProyectoUnidad1
         }
         private void Program_Shown(object sender, EventArgs e)
         {
+            //Cuando el programa inicie llamamos al metodo de botones padre
             MainButtons();
         }
         public void MainButtons()
         {
+            //Llamamos 2 veces al metodo de crear botones pasando un true para que sean pares
             for (int i = 0; i < 2; i++)
                 CreateButtons(true);
+            //Llamamos 2 veces al metodo de crear botones pasando un false para que sean impares
             for (int i = 0; i < 2; i++)
                 CreateButtons(false);
         }
