@@ -65,7 +65,7 @@ namespace Practica_3
             // Program
             // 
             this.BackColor = System.Drawing.Color.FromArgb(0,0,0);
-            this.ClientSize = new System.Drawing.Size(500, 261);
+            this.ClientSize = new System.Drawing.Size(800, 700);
             this.Name = "Program";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Shown += new System.EventHandler(this.Program_Shown);
@@ -108,14 +108,11 @@ namespace Practica_3
 
             }
             //
-
             //Propiedades del boton principal
             button.ImageLocation = "https://learnhotdogs.com/wp-content/uploads/2012/09/magic-button-400x400.png";
             button.SizeMode = PictureBoxSizeMode.StretchImage;
             button.Location = new System.Drawing.Point(x, y);
             this.Controls.Add(button);
-
-
         }
         public void changeColor(int top, int left)
         {
@@ -275,7 +272,7 @@ namespace Practica_3
             //Metodo para mover al botó
             public void Move(int ClientHeight, int ClientWidth, ref int y, ref int x, bool admin = false)
             {
-                int velocidad = 18;
+                int velocidad = 8;
                 //Si toca arriba a la derecha
                 if ( y < (ClientHeight - 36) && y > (ClientHeight-50) && x > (ClientWidth-150))
                 {
