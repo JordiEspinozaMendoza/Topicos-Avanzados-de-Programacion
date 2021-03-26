@@ -87,9 +87,16 @@ namespace ProyectoUnidad1
                  boton = new Botones(boleans[b.Next(0, boleans.Length)], boleans[b.Next(0, boleans.Length)], boleans[b.Next(0, boleans.Length)], boleans[b.Next(0, boleans.Length)], par, impares[b.Next(0, impares.Length)]);
 
             //Creamos un punto random para la ubicacion
+            generate:
             Point pt = new Point(int.Parse(b.Next(this.ClientSize.Width).ToString()),
                         int.Parse(b.Next(this.ClientSize.Height).ToString()));
             boton.Location = pt;
+            foreach (Botones item in buttons)
+            {
+                if(boton!=item)
+                    if (boton.Bounds.IntersectsWith(item.Bounds))
+                        goto generate;
+            }
             buttonsToAdd.Add(boton);
         }
         public void PreDeleteButtons(Botones Boton) //Metodo que se encarga de evaluar previamente si es necesario eliminar botones pares o impares
